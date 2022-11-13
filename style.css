@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+fieldset{
+    height: 100vh;
+    width: 50%;
+    background: linear-gradient(90deg, white, skyblue);
+    position: relative;
+    left: 25%;
+    
+
+}
+
+
+fieldset h1{
+    margin-bottom: 1em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    border-radius: .3em;
+}
+
+#container div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+}
+
+#container div p{
+    line-height: 1.5em;
+    display: inline-block;
+}
+
+#container div {
+    padding: 1em;
+    display: none;
+    border-radius: 5px;
+    color: black;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {box-shadow: 2px 5px 30px coral;}
+  }
