@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         target: { from, to, amount },
       } = event;
 
-      var headers = new Headers();
+      const headers = new Headers();
       headers.append("apikey", "4FD0SJ8VLzKrG4Ik9jHsr1yl4ZTfWYLq");
 
       const requestOptions = {
